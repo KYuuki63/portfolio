@@ -32,16 +32,93 @@ header {
     height: 10vh;
     width: 100%;
     background-color: var(--main-color);
+    border-bottom: 1px solid var(--sub-color);
+    display: flex;
+    align-items: center;
+}
+
+
+body {
+    background-image: url(../img/back.png);
+    background-color: rgba(255, 255, 255, 0.7);
+    background-blend-mode: lighten;
+    background-repeat: repeat;
+    background-size: 9%;
 }
 
 header > div {
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
 
 
 header p.SITENAME {
-    
+    font-size: 7vh;
+}
+
+
+header li {
+    list-style: none;
+}
+
+
+header ul {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+header li > a {
+    position: relative;
+    text-decoration: none;
+    font-size: 1.8em;
+    color: black;
+    padding: 1rem;
+    transition: background-color 1s, color 1s;
+}
+
+header li > a:hover {
+    background-color: var(--sub-color);
+    color: black;
+}
+
+header li:nth-child(1) > a::before {
+    position: absolute;
+    content: "┃";
+    font-size: 0.5em;
+    top: 28px;
+    left: -10px;
+    color: gray;
+}
+
+header li > a::after {
+    position: absolute;
+    content: "┃";
+    font-size: 0.5em;
+    margin-left: 16px;
+    top: 28px;
+    color: gray;
+}
+
+
+section.Hero {
+    padding-top: 10vh;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+section.Hero div.Absolute {
+    position: relative;
+}
+
+section.Hero h2 {
+    font-size: 8em;
+    position: absolute;
+
 }
