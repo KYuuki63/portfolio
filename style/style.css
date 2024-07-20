@@ -207,7 +207,7 @@ section.Profile>div.Absolute {
 
 section.Profile .Absolute>.background {
     left: 40px;
-    top: 20px;
+    top: 2vh;
     z-index: 2;
     position: absolute;
     background-color: var(--main-color);
@@ -219,7 +219,7 @@ section.Profile .Absolute>.background {
 
 section.Profile .Absolute>.background-sub {
     left: 300px;
-    top: 280px;
+    top: 28vh;
     z-index: 1;
     position: absolute;
     background-color: var(--sub-color);
@@ -282,7 +282,7 @@ section.Working div.Absolute {
 
 section.Working .Absolute>.background {
     right: 40px;
-    top: 120px;
+    top: 12vh;
     z-index: 2;
     position: absolute;
     background-color: var(--main-color);
@@ -294,7 +294,7 @@ section.Working .Absolute>.background {
 
 section.Working .Absolute>.background-sub {
     right: 300px;
-    top: 250px;
+    top: 25vh;
     z-index: 1;
     position: absolute;
     background-color: var(--sub-color);
