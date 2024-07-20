@@ -183,12 +183,34 @@ section.Hero .background-sub {
     height: 50%;
 }
 
-div.whiteback {
+
+
+section.Profile {
     margin: 10vh var(--LRmargin);
     background-color: white;
     border: 2px solid var(--sub-color);
     border-radius: 10px 10px;
+    padding-bottom: 5vh;
 }
+
+
+
+section.Profile > .contents{
+padding: 0 2vw;
+}
+
+section.Profile > div.Absolute {
+    position: relative;
+}
+
+section.Profile .Absolute > .background{
+    background-color: var(--main-color);
+    opacity: 0.5;
+
+}
+
+
+
 
 
 section.Profile > div.contents > .flex{
@@ -212,4 +234,11 @@ section.Profile img {
     height: 40vh;
     width: 40vh;
     /*border: 1px solid black;*/
+}
+
+
+
+
+section.Working {
+    margin-top: 15vh;
 }
