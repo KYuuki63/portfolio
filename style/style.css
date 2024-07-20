@@ -1,19 +1,21 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     margin: 0;
-    padding: 0; 
-    box-sizing: border-box; 
-  }
+    padding: 0;
+    box-sizing: border-box;
+}
 
-  :root { 
+:root {
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
     font-feature-settings: "palt";
     font-size: 14pt;
-  
+
 
     --main-color: hsla(60, 100%, 90%, 75%);
-    --sub-color:  rgb(156, 139, 99);
+    --sub-color: rgb(156, 139, 99);
     --LRmargin: 10vw;
-  }
+}
 
 html {
     scroll-behavior: smooth;
@@ -21,8 +23,8 @@ html {
 
 
 img {
-  max-width: 100%; 
-  width: 640px; 
+    max-width: 100%;
+    width: 640px;
 }
 
 
@@ -63,7 +65,7 @@ header {
 
 
 
-header > div {
+header>div {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -90,7 +92,7 @@ header ul {
     gap: 10px;
 }
 
-header li > a {
+header li>a {
     position: relative;
     text-decoration: none;
     font-size: 1.8em;
@@ -99,12 +101,12 @@ header li > a {
     transition: background-color 1s, color 1s;
 }
 
-header li > a:hover {
+header li>a:hover {
     background-color: var(--sub-color);
     color: black;
 }
 
-header li:nth-child(1) > a::before {
+header li:nth-child(1)>a::before {
     position: absolute;
     content: "┃";
     font-size: 0.5em;
@@ -113,7 +115,7 @@ header li:nth-child(1) > a::before {
     color: gray;
 }
 
-header li > a::after {
+header li>a::after {
     position: absolute;
     content: "┃";
     font-size: 0.5em;
@@ -195,15 +197,15 @@ section.Profile {
 
 
 
-section.Profile > .contents{
-padding: 0 2vw;
+section.Profile>.contents {
+    padding: 0 2vw;
 }
 
-section.Profile > div.Absolute {
+section.Profile>div.Absolute {
     position: relative;
 }
 
-section.Profile .Absolute > .background{
+section.Profile .Absolute>.background {
     left: 40px;
     top: 20px;
     z-index: 2;
@@ -215,7 +217,7 @@ section.Profile .Absolute > .background{
 }
 
 
-section.Profile .Absolute > .background-sub{
+section.Profile .Absolute>.background-sub {
     left: 300px;
     top: 280px;
     z-index: 1;
@@ -229,7 +231,7 @@ section.Profile .Absolute > .background-sub{
 
 
 
-section.Profile > div.contents > .flex{
+section.Profile>div.contents>.flex {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -267,10 +269,93 @@ section.Working {
 
 
 
+
+
+section.Working div.Absolute {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+
+
+section.Working .Absolute>.background {
+    right: 40px;
+    top: 200px;
+    z-index: 2;
+    position: absolute;
+    background-color: var(--main-color);
+    opacity: 0.8;
+    height: 35vh;
+    width: 20vw;
+}
+
+
+section.Working .Absolute>.background-sub {
+    right: 300px;
+    top: 250px;
+    z-index: 1;
+    position: absolute;
+    background-color: var(--sub-color);
+    opacity: 0.8;
+    height: 25vh;
+    width: 15vw;
+}
+
+
+
+
 section.Working {
     margin: 10vh var(--LRmargin);
     background-color: white;
     border: 2px solid var(--sub-color);
     border-radius: 10px 10px;
     padding-bottom: 5vh;
+}
+
+section.Working>.contents {
+    padding: 0 2vw;
+}
+
+section.Working h2 {
+    position: relative;
+    z-index: 100;
+    text-align: right;
+}
+
+
+section.Working .flex-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+section.Working .flex-exp{
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+
+section.Working h3{
+    position: relative;
+    z-index: 100;
+    font-size: 3.2vw;
+    text-align: center;
+}
+
+section.Working span {
+    position: relative;
+    z-index: 100;
+    font-size: 1.5vw;
+}
+
+section.Working img {
+    position: relative;
+    z-index: 100;
 }
