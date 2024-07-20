@@ -359,3 +359,60 @@ section.Working img {
     position: relative;
     z-index: 100;
 }
+
+
+
+section.Art {
+    margin: 10vh var(--LRmargin);
+    background-color: white;
+    border: 2px solid var(--sub-color);
+    border-radius: 10px 10px;
+    padding-bottom: 5vh;
+}
+
+
+section.Art ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+
+section.Art li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+
+section.Art li:nth-child(2n){
+    flex-direction: row-reverse;
+}
+
+
+
+section.Art li img {
+    width: 50%;
+}
+
+
+section.Art li > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+section.Art li h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+section.Art > .contents {
+    padding: 0 2vw;
+}
+
