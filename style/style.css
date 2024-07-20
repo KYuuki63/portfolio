@@ -204,11 +204,27 @@ section.Profile > div.Absolute {
 }
 
 section.Profile .Absolute > .background{
+    left: 40px;
+    top: 20px;
+    z-index: 2;
+    position: absolute;
     background-color: var(--main-color);
-    opacity: 0.5;
-
+    opacity: 0.8;
+    height: 35vh;
+    width: 20vw;
 }
 
+
+section.Profile .Absolute > .background-sub{
+    left: 300px;
+    top: 280px;
+    z-index: 1;
+    position: absolute;
+    background-color: var(--sub-color);
+    opacity: 0.8;
+    height: 25vh;
+    width: 15vw;
+}
 
 
 
@@ -221,10 +237,16 @@ section.Profile > div.contents > .flex{
 }
 
 section.Profile span {
+    z-index: 30;
+    position: relative;
     font-size: 1.5rem;
     line-height: 2.5em;
 }
 
+section.Profile h2 {
+    position: relative;
+    z-index: 30;
+}
 
 
 
@@ -241,4 +263,14 @@ section.Profile img {
 
 section.Working {
     margin-top: 15vh;
+}
+
+
+
+section.Working {
+    margin: 10vh var(--LRmargin);
+    background-color: white;
+    border: 2px solid var(--sub-color);
+    border-radius: 10px 10px;
+    padding-bottom: 5vh;
 }
