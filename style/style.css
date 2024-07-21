@@ -281,8 +281,8 @@ section.Working div.Absolute {
 
 
 section.Working .Absolute>.background {
-    right: 40px;
-    top: 12vh;
+    right: 4vw;
+    top: 5vw;
     z-index: 2;
     position: absolute;
     background-color: var(--main-color);
@@ -293,8 +293,8 @@ section.Working .Absolute>.background {
 
 
 section.Working .Absolute>.background-sub {
-    right: 300px;
-    top: 25vh;
+    right: 20vw;
+    top: 12vw;
     z-index: 1;
     position: absolute;
     background-color: var(--sub-color);
