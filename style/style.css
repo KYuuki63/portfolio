@@ -75,6 +75,7 @@ header>div {
 
 
 
+
 header p.SITENAME {
     font-size: 7vh;
 }
@@ -82,22 +83,23 @@ header p.SITENAME {
 
 header li {
     list-style: none;
+    display: flex;
 }
 
 
 header ul {
-    margin-right: 30px;
+    margin-right: 1vw;
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 0.5vw;
 }
 
 header li>a {
     position: relative;
     text-decoration: none;
-    font-size: 1.8em;
+    font-size: 3vh;
     color: black;
-    padding: 1rem;
+    padding: 2vh;
     transition: background-color 1s, color 1s;
 }
 
@@ -110,8 +112,8 @@ header li:nth-child(1)>a::before {
     position: absolute;
     content: "┃";
     font-size: 0.5em;
-    top: 28px;
-    left: -10px;
+    top: 3vh;
+    left: -1.07vh;
     color: gray;
 }
 
@@ -119,8 +121,8 @@ header li>a::after {
     position: absolute;
     content: "┃";
     font-size: 0.5em;
-    margin-left: 16px;
-    top: 28px;
+    margin-left: 1.7vh;
+    top: 3vh;
     color: gray;
 }
 
