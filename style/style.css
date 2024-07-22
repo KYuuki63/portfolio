@@ -454,6 +454,10 @@ footer a{
     color: white;
 }
 
+footer address {
+    font-style:normal;
+}
+
 
 
 
@@ -572,6 +576,9 @@ footer a{
         border-bottom: none;
     }
 
+    section.Art li > div {
+        gap: 10px;
+    }
 
     section.Art li img{
         height: auto;
@@ -582,5 +589,20 @@ footer a{
         font-size: 7vw;
     }
 
+    section.Art li span {
+        font-size: 4.5vw;
+    }
+
+    footer .contact {
+        padding: 0 2px;
+    }
+
+    footer p{
+        font-size: 4vw;
+    }
+
+    footer address {
+        margin: 10px 0;
+    }
 
 }
