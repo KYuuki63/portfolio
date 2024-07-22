@@ -395,11 +395,11 @@ section.Art li:nth-child(2n){
 }
 
 
-
+/*
 section.Art li img {
     width: 50%;
 }
-
+*/
 
 section.Art li > div {
     display: flex;
