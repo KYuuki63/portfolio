@@ -29,6 +29,10 @@ img {
     */
 
 
+    .contents_innner {
+        padding-top: calc(10vh + 40px);
+        margin-top: -10vh;
+    }
 
 
 
