@@ -403,6 +403,7 @@ section.Art li:nth-child(2n){
 
 
 section.Art li img {
+    width: auto;
     height: 85vh;
 }
 
