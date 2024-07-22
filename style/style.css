@@ -290,7 +290,7 @@ section.Working .Absolute>.background {
     position: absolute;
     background-color: var(--main-color);
     opacity: 0.6;
-    height: 45vh;
+    height: 26vw;
     width: 20vw;
 }
 
@@ -537,4 +537,50 @@ footer a{
         font-size: 5vw;
         text-align: center;
     }
+
+    section.Working .Absolute>.background-sub {
+        width: 40vw;
+        height: 50vw;
+        top: 40vh;
+        left: 0;
+    }
+
+    section.Working .Absolute>.background{
+        height: 40vw;
+        width: 70vw;
+        top: 50vh;
+    }
+
+    section.Art {
+        margin: 10vh 0;
+        border-radius: 0%;
+        border-right: none;
+        border-left: none;
+    }
+
+    section.Art h2 {
+        font-size: 15vw;
+    } 
+
+    section.Art li,section.Art li:nth-child(2n){
+        flex-direction: column-reverse;
+        padding-bottom: 30px;
+        border-bottom: 1px dotted var(--sub-color);
+    }
+
+    section.Art li:last-child {
+        border-bottom: none;
+    }
+
+
+    section.Art li img{
+        height: auto;
+        width: 95vw;
+    }
+
+    section.Art li h3 {
+        font-size: 7vw;
+    }
+
+
 }
