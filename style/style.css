@@ -209,7 +209,7 @@ section.Profile>div.Absolute {
 }
 
 section.Profile .Absolute>.background {
-    left: 40px;
+    left: 3vw;
     top: 2vh;
     z-index: 2;
     position: absolute;
@@ -221,7 +221,7 @@ section.Profile .Absolute>.background {
 
 
 section.Profile .Absolute>.background-sub {
-    left: 300px;
+    left: 20vw;
     top: 28vh;
     z-index: 1;
     position: absolute;
@@ -457,4 +457,84 @@ footer a{
 
 
 
-@
+@media (768px > width) {
+    img {
+        width: 100px;
+    }
+    header {
+        display: none;
+    }
+
+    section.Hero {
+        padding-top: 0;
+    }
+
+    section.Profile {
+        margin: 10vh 0;
+        border-radius: 0%;
+        border-right: none;
+        border-left: none;
+    }
+
+    section.Profile h2 {
+        font-size: 15vw;
+    } 
+
+    section.Profile>div.contents>.flex{
+        flex-direction: column;
+    }
+
+    section.Profile .Absolute>.background{
+        width: 50vw;
+        height: 450px;
+    }
+    section.Profile .Absolute>.background-sub{
+        left: 53vw;
+        width: 30vw;
+        top: 8vh;
+    }
+
+
+    
+    section.Profile span {
+        font-size: 1.2rem;
+    }
+    
+
+    section.Working {
+        margin: 10vh 0;
+        border-radius: 0%;
+        border-right: none;
+        border-left: none;
+    }
+
+
+    section.Working h2 {
+        font-size: 15vw;
+        text-align: start;
+    }
+
+    section.Working .flex-contents {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    section.Working img {
+        width: 90vw;
+    }
+
+    section.Working h3 {
+        font-size: 10vw;
+    }
+
+    section.Working .flex-exp {
+        width: auto;
+        align-items: center;
+    }
+
+    section.Working span {
+        font-size: 5vw;
+        text-align: center;
+    }
+}
