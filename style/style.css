@@ -446,11 +446,11 @@ section.Art .exp-flex {
     display: flex;
     justify-content: center;
     padding: 60px 0px;
-    font-size: 1.5vw;
 }
 
 section.Art .art-ex{
     text-align: center;
+    font-size: 1.5vw;
 }
 
 
