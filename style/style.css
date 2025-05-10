@@ -322,6 +322,27 @@ section.Working .Absolute>.background-sub {
 
 
 
+section.Working a {
+    width: 30vw;
+    color: #242424;
+    text-decoration: none;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    padding: 15px 5px;
+    margin-left: 10px;
+    margin-right: 40px;
+    background-color: var(--main-color);
+    border-radius: 50px 50px;
+    border:  2px solid var(--sub-color);
+    transition: background-color 0.3s, color 0.0s;
+  }
+  
+  section.Working a:hover{
+    background-color: var(--sub-color);
+    color: white;
+  }
 
 section.Working {
     margin: 10vh var(--LRmargin);
@@ -333,7 +354,13 @@ section.Working {
 
 section.Working>.contents {
     padding: 0 2vw;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section.Working video {
+    width: 10vw;
 }
 
 section.Working h2 {
