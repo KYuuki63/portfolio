@@ -81,7 +81,9 @@ header>div {
 
 
 
-header p.SITENAME {
+header .SITENAME {
+    text-decoration: none;
+    color: black;
     font-size: 7vh;
 }
 
