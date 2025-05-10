@@ -426,6 +426,10 @@ section.Working li {
     gap: 40px;
 }
 
+section.Working li>img{
+object-fit: contain;
+}
+
 section.Working .flex-exp {
     justify-content: center;
 }
