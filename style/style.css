@@ -361,6 +361,7 @@ section.Working>.contents {
 }
 section.Working video {
     width: 10vw;
+    z-index: 20;
 }
 
 section.Working h2 {
@@ -673,6 +674,50 @@ footer address {
     section.Art li:last-child {
         border-bottom: none;
     }
+
+
+section.Working video {
+    width: 80vw;
+}
+
+    section.Working .flex-contents {
+        width: 100vw;
+    }
+
+    section.Working ul{
+        align-items: center;
+    }
+
+    div.section-container{
+        padding-top: 0;
+    }
+
+    section.Working li,section.Working li:nth-child(2n){
+        flex-direction: column-reverse;
+        padding-bottom: 30px;
+        border-bottom: 1px dotted var(--sub-color);
+        align-items: center;
+        width: 90%;
+    }
+
+    section.Working li:last-child {
+        border-bottom: none;
+    }
+
+
+    section.Working li span {
+        font-size: 3.5vw;
+        width: 100vw;
+    }
+
+    section.Working a {
+        width: 80vw;
+    }
+
+
+section.Art .art-ex{
+    font-size: 3.5vw;
+}
 
     section.Art li > div {
         gap: 10px;
