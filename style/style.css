@@ -572,6 +572,11 @@ footer address {
         padding-top: 0;
     }
 
+    section.Hero p {
+        font-size: 5vw;
+    }
+
+
     section.Profile {
         margin: 10vh 0;
         border-radius: 0%;
