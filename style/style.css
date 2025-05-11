@@ -566,6 +566,9 @@ footer address {
 }
 
 
+section.Working .working-ex,section.Art .art-ex{
+    font-size: 1.5em;
+}
 
 
 @media (768px > width) {
