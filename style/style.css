@@ -209,6 +209,8 @@ section.Hero .background-sub {
 section.Profile {
     margin: 10vh var(--LRmargin);
     background-color: white;
+    background: #ffffff;
+background: linear-gradient(45deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 60%, rgba(237, 221, 83, 0) 100%);
     border: 2px solid var(--sub-color);
     border-radius: 10px 10px;
     padding-bottom: 5vh;
