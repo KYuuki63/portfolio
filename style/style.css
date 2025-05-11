@@ -731,7 +731,7 @@ section.Working video {
     }
 
 
-section.Art .art-ex{
+section.Art .art-ex, section.Working .working-ex{
     font-size: 3.5vw;
 }
 
